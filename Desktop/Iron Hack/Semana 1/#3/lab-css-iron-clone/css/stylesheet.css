@@ -1,0 +1,135 @@
+
+h1{
+    font-size: 3em;
+}
+section {
+    padding: 70px 0;
+}
+h3{
+    font-size: 1.5em;
+}
+h2{
+    font-size: 2em;
+    padding-bottom: 20px
+}
+
+a:hover {
+    text-decoration: none;
+    color:white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    position: fixed;
+    width: 100vw;
+    z-index: 999;
+}
+nav img{
+    width: 40%;
+}
+nav ul{
+    display:none;
+}
+article{
+    padding: 20px 0
+}
+article img{
+    padding: 20px 0;
+}
+.container{
+    text-align: center;
+}
+.hero, .hero .row{
+    height: 100vh;
+}
+.hero{ 
+    background:white url('../images/background-shape-dark.svg') no-repeat center/ cover;
+    color: white;
+    text-align: center; 
+}
+.hero p{
+    font-size: 2em;
+}
+.button-blue{
+    width: 350px;                   
+    display: block;               
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 400;   
+    margin: 60px auto;           
+    padding: 20px 5px;             
+    font-family: sans-serif;
+    background-color: rgb(49, 178, 238);
+    border:1px solid rgb(49, 178, 238);
+    border-radius: 4px
+}
+.logos-empresas p{
+    font-size: 1.5em;
+    color: grey;
+}
+.logos-empresas img{
+    width: 90%;
+}
+.datos-num {
+    list-style: none;
+    margin:0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.big-number{
+    font-size: 3em;
+    font-weight: 900;
+}
+.quote{
+    display:none;
+}
+.por-k img{
+    width: 20%;
+}
+.por-k p{
+    font-size: 1.5em;
+}
+@media all and (min-width:768px) {
+    nav ul li{
+        list-style: none;
+        display: inline-block;
+        text-decoration: none;
+        margin: 5px 10px 0;
+        font-weight: 500;
+        
+        
+    }
+    nav ul{
+        display:inline-block;
+        margin:0;
+    }
+    nav img{
+        width: 40%;
+    }
+    header a {
+        color:white;
+        display:block;
+        padding: 5px 3px;
+    }
+    .flex-box{
+        display: flex;
+        justify-content: space-between;
+        width: 100vw;
+        padding:5px;
+    }
+    .logos-empresas img{
+        width: 250%;
+        padding-top: 30px;
+    }
+    nav .mobile-nav{
+        display:none;
+    }
+    .hero{
+        font-size: 1.5em;
+    }
+}
+
